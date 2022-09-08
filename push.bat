@@ -1,6 +1,7 @@
 @echo off
 git add .
-git reset info.txt
+git reset test.log
+git reset __pycache__
 git commit -m "first commit"
 git push -u origin main
 
